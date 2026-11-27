@@ -1,0 +1,26 @@
+{
+ "dataset": "vitaminc",
+ "split": "test",
+ "model": null,
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 3932,
+ "corpus": 41888,
+ "exclusion": "sparsecl",
+ "query_free": false,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.5354666376151183,
+    "Recall@10": 0.8870803662258393,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.5354666376151183,
+    "Recall@10": 0.8870803662258393,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "results/sparsecl_emb_s0.npz": {
+  "target": 0.20869052410125732,
+  "confounder": 0.21003904938697815,
+  "random": 0.16338123381137848,
+  "pairwise": 0.44252288911495424,
+  "queries": 3932
+ },
+ "results/sparsecl_emb_s1.npz": {
+  "target": 0.20760196447372437,
+  "confounder": 0.2089797705411911,
+  "random": 0.1656811237335205,
+  "pairwise": 0.43947100712105797,
+  "queries": 3932
+ },
+ "results/sparsecl_emb_s2.npz": {
+  "target": 0.2102864682674408,
+  "confounder": 0.21194292604923248,
+  "random": 0.16943387687206268,
+  "pairwise": 0.443794506612411,
+  "queries": 3932
+ }
+}

@@ -1,0 +1,1073 @@
+{
+ "arm": "cr16",
+ "edit_types": {
+  "name": 841,
+  "number": 2386,
+  "other": 669,
+  "negation": 36
+ },
+ "seeds": [
+  {
+   "seed": 0,
+   "slots": 16,
+   "pairwise": 0.4122583866119385,
+   "commit_rate": 1.0,
+   "unused_slots": 0,
+   "slots_for_80pct": 12.989827156066895,
+   "top_slot_share": 0.06534869223833084,
+   "nmi": 0.0039007984787318628,
+   "nmi_shuffled": 0.003645445418173231,
+   "nmi_p": 0.3676323676323676,
+   "attention_on_edit_dominant": 0.10719913989305496,
+   "attention_on_edit_other": 0.10719751566648483,
+   "attention_on_edit_chance": 0.10717471688985825,
+   "per_slot": [
+    {
+     "slot": 0,
+     "commit": 1.0,
+     "dominant_share": 0.0658697858452797,
+     "top_type": "number",
+     "top_type_share": 0.6332046332046332,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.008323416113853455,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.09693460166454315
+    },
+    {
+     "slot": 1,
+     "commit": 1.0,
+     "dominant_share": 0.06358087807893753,
+     "top_type": "number",
+     "top_type_share": 0.572,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026403993368148804,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10118639469146729
+    },
+    {
+     "slot": 2,
+     "commit": 1.0,
+     "dominant_share": 0.054425228387117386,
+     "top_type": "number",
+     "top_type_share": 0.677570093457944,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10922695696353912
+    },
+    {
+     "slot": 3,
+     "commit": 1.0,
+     "dominant_share": 0.07019328325986862,
+     "top_type": "number",
+     "top_type_share": 0.6485507246376812,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11194305866956711
+    },
+    {
+     "slot": 4,
+     "commit": 1.0,
+     "dominant_share": 0.06027466803789139,
+     "top_type": "number",
+     "top_type_share": 0.6033755274261603,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026403993368148804,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11949492990970612
+    },
+    {
+     "slot": 5,
+     "commit": 1.0,
+     "dominant_share": 0.05874872952699661,
+     "top_type": "number",
+     "top_type_share": 0.5411255411255411,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.008323416113853455,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10186885297298431
+    },
+    {
+     "slot": 6,
+     "commit": 1.0,
+     "dominant_share": 0.056205492466688156,
+     "top_type": "number",
+     "top_type_share": 0.5656108597285068,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11076566576957703
+    },
+    {
+     "slot": 7,
+     "commit": 1.0,
+     "dominant_share": 0.05671413987874985,
+     "top_type": "number",
+     "top_type_share": 0.57847533632287,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.008323416113853455,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.09857168793678284
+    },
+    {
+     "slot": 8,
+     "commit": 1.0,
+     "dominant_share": 0.07527975738048553,
+     "top_type": "number",
+     "top_type_share": 0.6148648648648649,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026403993368148804,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11120989173650742
+    },
+    {
+     "slot": 9,
+     "commit": 1.0,
+     "dominant_share": 0.06663275510072708,
+     "top_type": "number",
+     "top_type_share": 0.5877862595419847,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10314527153968811
+    },
+    {
+     "slot": 10,
+     "commit": 1.0,
+     "dominant_share": 0.06765004992485046,
+     "top_type": "number",
+     "top_type_share": 0.5939849624060151,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.027242213487625122,
+      "negation": 0.0,
+      "name": 0.008323416113853455,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11712894588708878
+    },
+    {
+     "slot": 11,
+     "commit": 1.0,
+     "dominant_share": 0.05849440395832062,
+     "top_type": "number",
+     "top_type_share": 0.6304347826086957,
+     "ablation": {
+      "overall": 0.018565595149993896,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.008323416113853455,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10190209001302719
+    },
+    {
+     "slot": 12,
+     "commit": 1.0,
+     "dominant_share": 0.053916580975055695,
+     "top_type": "number",
+     "top_type_share": 0.6132075471698113,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.11184356361627579
+    },
+    {
+     "slot": 13,
+     "commit": 1.0,
+     "dominant_share": 0.05417090654373169,
+     "top_type": "number",
+     "top_type_share": 0.6572769953051644,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10222510248422623
+    },
+    {
+     "slot": 14,
+     "commit": 1.0,
+     "dominant_share": 0.0775686651468277,
+     "top_type": "number",
+     "top_type_share": 0.5934426229508196,
+     "ablation": {
+      "overall": 0.01881992816925049,
+      "number": 0.026823103427886963,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.10226498544216156
+    },
+    {
+     "slot": 15,
+     "commit": 1.0,
+     "dominant_share": 0.06027466803789139,
+     "top_type": "number",
+     "top_type_share": 0.6033755274261603,
+     "ablation": {
+      "overall": 0.018311291933059692,
+      "number": 0.025984883308410645,
+      "negation": 0.0,
+      "name": 0.009512484073638916,
+      "other": 0.002989530563354492
+     },
+     "attention_on_edit": 0.1150478720664978
+    }
+   ],
+   "important_slots": [
+    2,
+    3,
+    6
+   ],
+   "examples": {
+    "2": [
+     {
+      "edit": "300 -> 400",
+      "type": "number",
+      "query": "The capital, Muscat continues to be the region with the highest number of confirmed cases at over 300.",
+      "target": "The capital city , Muscat continues to be the region with the highest number of confirmed cases at over 400 .",
+      "share": 0.06331944465637207
+     },
+     {
+      "edit": "generally -> mixed to",
+      "type": "other",
+      "query": "The Wedding Ringer received generally negative reviews from critics.",
+      "target": "The Wedding Ringer received mixed to negative reviews from critics .",
+      "share": 0.06369782984256744
+     },
+     {
+      "edit": "2078 -> 2079",
+      "type": "number",
+      "query": "In 2078, CIA agent Snow was arrested for murdering undercover agent Frank Armstrong, who had uncovered evidence for another agent selling secrets about the space program.",
+      "target": "In 2079 , CIA agent Snow is arrested for murdering undercover agent Frank Armstrong , who had uncovered evidence of another agent selling secrets about the space program .",
+      "share": 0.06372817605733871
+     },
+     {
+      "edit": "North South -> Republic of North",
+      "type": "name",
+      "query": "It borders Japan, North Korea, Russia and South Korea.",
+      "target": "It is bordered by Japan , Republic of Korea , Russia and North Korea .",
+      "share": 0.06479104608297348
+     }
+    ],
+    "3": [
+     {
+      "edit": "71 109 -> 70 108",
+      "type": "number",
+      "query": "A Madea Halloween and Geostorm. On the Rotten Tomatoes Aggregator website, the film has an approval rating of 71% based on 109 reviews, with an average rating of 6/10 .",
+      "target": "A Madea Halloween and Geostorm. On review aggregator website Rotten Tomatoes , the film has an approval rating of 70 % based on 108 reviews , with an average rating of 6/10 .",
+      "share": 0.06327274441719055
+     },
+     {
+      "edit": "67 4.3 -> 66 4.2",
+      "type": "number",
+      "query": "On Rotten Tomatoes, the movie has a 23% rating based on 67 reviews, with an average rating of 4.3/10 .",
+      "target": "On Rotten Tomatoes , the film has a rating of 23 % , based on 66 reviews , with an average rating of 4.2/10 .",
+      "share": 0.06353184580802917
+     },
+     {
+      "edit": "10.19 -> 10.5",
+      "type": "number",
+      "query": "Northwestern has the eight largest university foundation in the United States, currently with a value of 10.19 billion US dollars.",
+      "target": "Northwestern has the eighth largest university endowment in the United States , currently valued at $ 10.5 billion .",
+      "share": 0.06404952704906464
+     },
+     {
+      "edit": "89 -> 96",
+      "type": "number",
+      "query": "The Big Wedding holds a 7% rating on Rotten Tomatoes based on 89 reviews with the site's consensus that its `` all-star cast is stranded in a knitted, strained plot that offers broad stitches on humor, but few laughs.",
+      "target": "The Big Wedding holds a 7 % rating on Rotten Tomatoes based on 96 reviews with the site 's consensus stating that its `` all-star cast is stranded in a contrived , strained plot that features broad stabs at humor but few laughs .",
+      "share": 0.06301724910736084
+     }
+    ],
+    "6": [
+     {
+      "edit": "positive -> mixed",
+      "type": "other",
+      "query": "Speak Your Mind received positive reviews from music critics.",
+      "target": "Speak Your Mind received mixed reviews from music critics .",
+      "share": 0.06304720044136047
+     },
+     {
+      "edit": "62 -> 60",
+      "type": "number",
+      "query": "His lead singles `` Liar '' and `` Shameless '' reached number 52 on the Billboard Hot 100 and 62 respectively.",
+      "target": "Its lead singles `` Liar '' and `` Shameless '' peaked at number 52 and 60 on the Billboard Hot 100 , respectively.",
+      "share": 0.06370203197002411
+     },
+     {
+      "edit": "positive -> negative",
+      "type": "other",
+      "query": "Thugs von Hindostan generally received positive reviews from critics.",
+      "target": "Thugs of Hindostan received generally negative reviews from critics .",
+      "share": 0.06310373544692993
+     },
+     {
+      "edit": "46 -> 45",
+      "type": "number",
+      "query": "On 27 February 46 cases and 16 recoveries were confirmed.",
+      "target": "As of 27 February , there have been 45 confirmed cases and 16 recoveries.",
+      "share": 0.06339156627655029
+     }
+    ]
+   }
+  },
+  {
+   "seed": 1,
+   "slots": 16,
+   "pairwise": 0.3921668231487274,
+   "commit_rate": 1.0,
+   "unused_slots": 0,
+   "slots_for_80pct": 12.990081787109375,
+   "top_slot_share": 0.06504285335540771,
+   "nmi": 0.0032054277100598614,
+   "nmi_shuffled": 0.003658136495685962,
+   "nmi_p": 0.7202797202797203,
+   "attention_on_edit_dominant": 0.10678444057703018,
+   "attention_on_edit_other": 0.1067882552742958,
+   "attention_on_edit_chance": 0.10717471688985825,
+   "per_slot": [
+    {
+     "slot": 0,
+     "commit": 1.0,
+     "dominant_share": 0.057985756546258926,
+     "top_type": "number",
+     "top_type_share": 0.5921052631578947,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.1097826361656189
+    },
+    {
+     "slot": 1,
+     "commit": 1.0,
+     "dominant_share": 0.055696845054626465,
+     "top_type": "number",
+     "top_type_share": 0.6438356164383562,
+     "ablation": {
+      "overall": 0.020345866680145264,
+      "number": 0.02263200283050537,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.09320936352014542
+    },
+    {
+     "slot": 2,
+     "commit": 1.0,
+     "dominant_share": 0.06841301918029785,
+     "top_type": "number",
+     "top_type_share": 0.6319702602230484,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.09661202132701874
+    },
+    {
+     "slot": 3,
+     "commit": 1.0,
+     "dominant_share": 0.052136316895484924,
+     "top_type": "number",
+     "top_type_share": 0.6390243902439025,
+     "ablation": {
+      "overall": 0.020345866680145264,
+      "number": 0.02263200283050537,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.1033506914973259
+    },
+    {
+     "slot": 4,
+     "commit": 1.0,
+     "dominant_share": 0.05722278729081154,
+     "top_type": "number",
+     "top_type_share": 0.6222222222222222,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.09415717422962189
+    },
+    {
+     "slot": 5,
+     "commit": 1.0,
+     "dominant_share": 0.0597660206258297,
+     "top_type": "number",
+     "top_type_share": 0.6127659574468085,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.11577127128839493
+    },
+    {
+     "slot": 6,
+     "commit": 1.0,
+     "dominant_share": 0.0709562599658966,
+     "top_type": "number",
+     "top_type_share": 0.5913978494623656,
+     "ablation": {
+      "overall": 0.020600199699401855,
+      "number": 0.02305111289024353,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.10498031228780746
+    },
+    {
+     "slot": 7,
+     "commit": 1.0,
+     "dominant_share": 0.06205493211746216,
+     "top_type": "number",
+     "top_type_share": 0.6024590163934426,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.10551173239946365
+    },
+    {
+     "slot": 8,
+     "commit": 1.0,
+     "dominant_share": 0.05874872952699661,
+     "top_type": "number",
+     "top_type_share": 0.6017316017316018,
+     "ablation": {
+      "overall": 0.02110883593559265,
+      "number": 0.02347022294998169,
+      "negation": 0.0277777761220932,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.11490985751152039
+    },
+    {
+     "slot": 9,
+     "commit": 1.0,
+     "dominant_share": 0.0651068165898323,
+     "top_type": "number",
+     "top_type_share": 0.6640625,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.10925306379795074
+    },
+    {
+     "slot": 10,
+     "commit": 1.0,
+     "dominant_share": 0.05773143470287323,
+     "top_type": "number",
+     "top_type_share": 0.5770925110132159,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.10318297147750854
+    },
+    {
+     "slot": 11,
+     "commit": 1.0,
+     "dominant_share": 0.07197354733943939,
+     "top_type": "number",
+     "top_type_share": 0.5512367491166078,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.09899377077817917
+    },
+    {
+     "slot": 12,
+     "commit": 1.0,
+     "dominant_share": 0.06688708066940308,
+     "top_type": "number",
+     "top_type_share": 0.5627376425855514,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.11546633392572403
+    },
+    {
+     "slot": 13,
+     "commit": 1.0,
+     "dominant_share": 0.071464903652668,
+     "top_type": "number",
+     "top_type_share": 0.5836298932384342,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.11419966071844101
+    },
+    {
+     "slot": 14,
+     "commit": 1.0,
+     "dominant_share": 0.059511698782444,
+     "top_type": "number",
+     "top_type_share": 0.5982905982905983,
+     "ablation": {
+      "overall": 0.02085450291633606,
+      "number": 0.02347022294998169,
+      "negation": 0.0,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.10425972938537598
+    },
+    {
+     "slot": 15,
+     "commit": 1.0,
+     "dominant_share": 0.06434384733438492,
+     "top_type": "number",
+     "top_type_share": 0.6521739130434783,
+     "ablation": {
+      "overall": 0.02110883593559265,
+      "number": 0.02347022294998169,
+      "negation": 0.0277777761220932,
+      "name": 0.014268726110458374,
+      "other": 0.020926743745803833
+     },
+     "attention_on_edit": 0.12240622192621231
+    }
+   ],
+   "important_slots": [
+    8,
+    15,
+    0
+   ],
+   "examples": {
+    "8": [
+     {
+      "edit": "0.8 0.9 -> 1.14 0.38",
+      "type": "number",
+      "query": "Islam ( 0.8% ) and Judaism ( 0.9% ) are also practiced .",
+      "target": "Islam ( 1.14 % ) and Judaism ( 0.38 % ) are also practiced .",
+      "share": 0.06413522362709045
+     },
+     {
+      "edit": "85 -> 87",
+      "type": "number",
+      "query": "On 4 March , the total number of confirmed cases increased to 85 .",
+      "target": "On 4 March the total number of confirmed cases increased to 87 .",
+      "share": 0.06317833065986633
+     },
+     {
+      "edit": "30 -> 26",
+      "type": "number",
+      "query": "`` On Metacritic the film has a score of 68 out of 100, based on 30 reviews, indicating `` generally favorable reviews ''.",
+      "target": "`` On Metacritic , the film has a score of 68 out of 100 , based on 26 reviews , indicating `` generally favorable reviews '' .",
+      "share": 0.06427265703678131
+     },
+     {
+      "edit": "45 -> 46",
+      "type": "number",
+      "query": "On 27 February 45 cases and 16 recoveries were confirmed.",
+      "target": "As of 27 February , there have been 46 confirmed cases and 16 recoveries.",
+      "share": 0.06340043991804123
+     }
+    ],
+    "15": [
+     {
+      "edit": "six -> five",
+      "type": "other",
+      "query": "It also became Dion 's first of six Diamond-certified albums in France. < ref name= '' snep '' > French certifications : * For \u00c0 l'Olympia , Les premi\u00e8res chansons vol .",
+      "target": "It also became Dion 's first out of five Diamond-certified albums in France. < ref name= '' snep '' > French certifications : * For \u00c0 l'Olympia , Les premi\u00e8res chansons vol .",
+      "share": 0.06299591809511185
+     },
+     {
+      "edit": "62 -> 60",
+      "type": "number",
+      "query": "His lead singles `` Liar '' and `` Shameless '' reached number 52 on the Billboard Hot 100 and 62 respectively.",
+      "target": "Its lead singles `` Liar '' and `` Shameless '' peaked at number 52 and 60 on the Billboard Hot 100 , respectively.",
+      "share": 0.06360995769500732
+     },
+     {
+      "edit": "142,940,100 . -> 142",
+      "type": "number",
+      "query": "Under an additional $98,321,000, the movie grossed a worldwide sum of $142,940,100.",
+      "target": "Taking in an additional $ 98,321,000 , the movie grossed a worldwide total of $ 142",
+      "share": 0.06502474099397659
+     },
+     {
+      "edit": "312 -> 32",
+      "type": "number",
+      "query": "On the first weekend, the entire collection was recorded as 312 Croe.",
+      "target": "On its first weekend , the total collection was noted as 32 crore .",
+      "share": 0.06312274932861328
+     }
+    ],
+    "0": [
+     {
+      "edit": "three -> eight",
+      "type": "other",
+      "query": "O'Leary was born on May 2, 1958 in Stoke Newington, London, and moved to Dublin at the age of three.",
+      "target": "O'Leary was born in Stoke Newington , London on 2 May 1958 and moved to live in Dublin at the age of eight.",
+      "share": 0.06420490890741348
+     },
+     {
+      "edit": "2,900 -> 3,000",
+      "type": "number",
+      "query": "Collateral Beauty opens next to Rogue One and is expected to gross $10-13 million from 2,900 theaters in its opening weekend.",
+      "target": "Collateral Beauty will open alongside Rogue One and is expected to gross $ 10\u201313 million from 3,000 theaters in its opening weekend.",
+      "share": 0.06327996402978897
+     },
+     {
+      "edit": "158.1 292.3 -> 157.7 291.8",
+      "type": "number",
+      "query": ", John Wick : Chapter 3 \u2013 Parabellum has $158.1 million in the United States and Canada and $134.1 million in other areas, for a global sum of $292.3 million gross.",
+      "target": ", John Wick : Chapter 3 \u2013 Parabellum has grossed $ 157.7 million in the United States and Canada , and $ 134.1 million in other territories , for a worldwide total of $ 291.8 million .",
+      "share": 0.06367886811494827
+     },
+     {
+      "edit": "457 -> 449",
+      "type": "number",
+      "query": "As of 1 April 2020 , there are 457 confirmed cases in 23 of the 28 Bulgarian provinces , with 10 reported deaths and 25 recoveries .",
+      "target": "As of 1 April 2020 , there are 449 confirmed cases in 23 out of 28 Bulgarian provinces , with 10 recorded deaths and 25 recoveries .",
+      "share": 0.06398668140172958
+     }
+    ]
+   }
+  },
+  {
+   "seed": 2,
+   "slots": 16,
+   "pairwise": 0.393438458442688,
+   "commit_rate": 1.0,
+   "unused_slots": 0,
+   "slots_for_80pct": 12.990335464477539,
+   "top_slot_share": 0.06520169228315353,
+   "nmi": 0.00372238308526955,
+   "nmi_shuffled": 0.0036581332745959667,
+   "nmi_p": 0.45054945054945056,
+   "attention_on_edit_dominant": 0.10683941841125488,
+   "attention_on_edit_other": 0.10684914886951447,
+   "attention_on_edit_chance": 0.10717471688985825,
+   "per_slot": [
+    {
+     "slot": 0,
+     "commit": 1.0,
+     "dominant_share": 0.05645981803536415,
+     "top_type": "number",
+     "top_type_share": 0.6261261261261262,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10632992535829544
+    },
+    {
+     "slot": 1,
+     "commit": 1.0,
+     "dominant_share": 0.06434384733438492,
+     "top_type": "number",
+     "top_type_share": 0.5573122529644269,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10202436149120331
+    },
+    {
+     "slot": 2,
+     "commit": 1.0,
+     "dominant_share": 0.055696845054626465,
+     "top_type": "number",
+     "top_type_share": 0.634703196347032,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.1076420247554779
+    },
+    {
+     "slot": 3,
+     "commit": 1.0,
+     "dominant_share": 0.06892167031764984,
+     "top_type": "number",
+     "top_type_share": 0.5904059040590406,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.12143603712320328
+    },
+    {
+     "slot": 4,
+     "commit": 1.0,
+     "dominant_share": 0.0651068165898323,
+     "top_type": "number",
+     "top_type_share": 0.671875,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10371288657188416
+    },
+    {
+     "slot": 5,
+     "commit": 1.0,
+     "dominant_share": 0.061037641018629074,
+     "top_type": "number",
+     "top_type_share": 0.6291666666666667,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10508636385202408
+    },
+    {
+     "slot": 6,
+     "commit": 1.0,
+     "dominant_share": 0.06688708066940308,
+     "top_type": "number",
+     "top_type_share": 0.6197718631178707,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10304592549800873
+    },
+    {
+     "slot": 7,
+     "commit": 1.0,
+     "dominant_share": 0.06358087807893753,
+     "top_type": "number",
+     "top_type_share": 0.616,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.09438836574554443
+    },
+    {
+     "slot": 8,
+     "commit": 1.0,
+     "dominant_share": 0.06434384733438492,
+     "top_type": "number",
+     "top_type_share": 0.5335968379446641,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.11239683628082275
+    },
+    {
+     "slot": 9,
+     "commit": 1.0,
+     "dominant_share": 0.06256358325481415,
+     "top_type": "number",
+     "top_type_share": 0.6463414634146342,
+     "ablation": {
+      "overall": 0.019328594207763672,
+      "number": 0.02347022294998169,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.0977664366364479
+    },
+    {
+     "slot": 10,
+     "commit": 1.0,
+     "dominant_share": 0.057985756546258926,
+     "top_type": "number",
+     "top_type_share": 0.5964912280701754,
+     "ablation": {
+      "overall": 0.019582927227020264,
+      "number": 0.02388933300971985,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.11674682050943375
+    },
+    {
+     "slot": 11,
+     "commit": 1.0,
+     "dominant_share": 0.0653611421585083,
+     "top_type": "number",
+     "top_type_share": 0.5758754863813229,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10722234845161438
+    },
+    {
+     "slot": 12,
+     "commit": 1.0,
+     "dominant_share": 0.06714140623807907,
+     "top_type": "number",
+     "top_type_share": 0.625,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.103342205286026
+    },
+    {
+     "slot": 13,
+     "commit": 1.0,
+     "dominant_share": 0.06383519619703293,
+     "top_type": "number",
+     "top_type_share": 0.5657370517928287,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.1067553162574768
+    },
+    {
+     "slot": 14,
+     "commit": 1.0,
+     "dominant_share": 0.06892167031764984,
+     "top_type": "number",
+     "top_type_share": 0.5940959409594095,
+     "ablation": {
+      "overall": 0.019328594207763672,
+      "number": 0.02347022294998169,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.10620428621768951
+    },
+    {
+     "slot": 15,
+     "commit": 1.0,
+     "dominant_share": 0.047812819480895996,
+     "top_type": "number",
+     "top_type_share": 0.6436170212765957,
+     "ablation": {
+      "overall": 0.01907426118850708,
+      "number": 0.02305111289024353,
+      "negation": 0.0277777761220932,
+      "name": 0.010701552033424377,
+      "other": 0.014947682619094849
+     },
+     "attention_on_edit": 0.11795592308044434
+    }
+   ],
+   "important_slots": [
+    10,
+    9,
+    14
+   ],
+   "examples": {
+    "10": [
+     {
+      "edit": "November 2019 -> March 2020",
+      "type": "number",
+      "query": "The joint memoirs of Jonas Brothers , Blood ( written together with Neil Strauss ) will be published in November 2019.",
+      "target": "The Jonas Brothers ' joint memoir , Blood ( co-written with Neil Strauss ) publishes in March 2020.",
+      "share": 0.06456529349088669
+     },
+     {
+      "edit": "March 2020 -> November 2019",
+      "type": "number",
+      "query": "The joint memoirs of Jonas Brothers , Blood (written together with Neil Strauss ) will be published in March 2020.",
+      "target": "The Jonas Brothers ' joint memoir , Blood ( co-written with Neil Strauss ) publishes in November 2019.",
+      "share": 0.06351608037948608
+     },
+     {
+      "edit": "10 890 January 17 -> 11 949 November 2",
+      "type": "number",
+      "query": "This six minute long video , titled `` Coming Out '' , has over 10 million views and over 890 thousand likes , the second watched video on Franta 's channel from January 17, 2016.",
+      "target": "This six-minute long video , titled `` Coming Out '' , has over 11 million views and over 949 thousand likes , being the second most viewed video on Franta 's channel as of November 2 , 2016.",
+      "share": 0.06398122012615204
+     },
+     {
+      "edit": "2078 -> 2079",
+      "type": "number",
+      "query": "In 2078, CIA agent Snow was arrested for murdering undercover agent Frank Armstrong, who had uncovered evidence for another agent selling secrets about the space program.",
+      "target": "In 2079 , CIA agent Snow is arrested for murdering undercover agent Frank Armstrong , who had uncovered evidence of another agent selling secrets about the space program .",
+      "share": 0.06384739279747009
+     }
+    ],
+    "9": [
+     {
+      "edit": "three -> four",
+      "type": "other",
+      "query": "He was also director for two episodes in the first season, ``Baelor '' and `` Fire and Blood '', as well as three more episodes in the second season.",
+      "target": "He was also a director for two episodes in the first season , `` Baelor '' and `` Fire and Blood '' , as well as four other episodes in the second season .",
+      "share": 0.06323504447937012
+     },
+     {
+      "edit": "11 949 November 2 -> 10 890 January 17",
+      "type": "number",
+      "query": "This six-minute video , titled `` Coming Out '' , has over 11 million views and over 949 thousand likes , the second watched video on Franta 's channel starting November 2, 2016.",
+      "target": "This six-minute long video , titled `` Coming Out '' , has over 10 million views and over 890 thousand likes , being the second most viewed video on Franta 's channel as of January 17 , 2016.",
+      "share": 0.06363112479448318
+     },
+     {
+      "edit": "26 -> 30",
+      "type": "number",
+      "query": "`` On Metacritic , the film has a score of 68 out of 100 , based on 26 reviews , based on `` generally favorable reviews '' .",
+      "target": "`` On Metacritic , the film has a score of 68 out of 100 , based on 30 reviews , indicating `` generally favorable reviews '' .",
+      "share": 0.06336095184087753
+     },
+     {
+      "edit": "800 -> 810",
+      "type": "number",
+      "query": "The music video has collected over 800 million views on YouTube.",
+      "target": "The music video has garnered over 810 million views on YouTube .",
+      "share": 0.06480403244495392
+     }
+    ],
+    "14": [
+     {
+      "edit": "three -> eight",
+      "type": "other",
+      "query": "O'Leary was born on May 2, 1958 in Stoke Newington, London, and moved to Dublin at the age of three.",
+      "target": "O'Leary was born in Stoke Newington , London on 2 May 1958 and moved to live in Dublin at the age of eight.",
+      "share": 0.06324706226587296
+     },
+     {
+      "edit": "71 109 -> 70 108",
+      "type": "number",
+      "query": "A Madea Halloween and Geostorm. On the Rotten Tomatoes Aggregator website, the film has an approval rating of 71% based on 109 reviews, with an average rating of 6/10 .",
+      "target": "A Madea Halloween and Geostorm. On review aggregator website Rotten Tomatoes , the film has an approval rating of 70 % based on 108 reviews , with an average rating of 6/10 .",
+      "share": 0.06322500109672546
+     },
+     {
+      "edit": "45 -> 46",
+      "type": "number",
+      "query": "On 27 February 45 cases and 16 recoveries were confirmed.",
+      "target": "As of 27 February , there have been 46 confirmed cases and 16 recoveries.",
+      "share": 0.06363728642463684
+     },
+     {
+      "edit": "6 104 -> 7 105",
+      "type": "number",
+      "query": "Rotten Tomatoes , an aggregator , reports that 6% of the 104 critics have given a positive rating to Paranoia , the average rating being 3.8/10 .",
+      "target": "Rotten Tomatoes , a review aggregator , reports that 7 % of 105 critics have given Paranoia a positive review ; the average rating is 3.8/10 .",
+      "share": 0.06363967061042786
+     }
+    ]
+   }
+  }
+ ]
+}

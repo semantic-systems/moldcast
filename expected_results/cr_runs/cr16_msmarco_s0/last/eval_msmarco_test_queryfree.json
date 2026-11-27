@@ -1,0 +1,48 @@
+{
+ "dataset": "msmarco",
+ "split": "test",
+ "model": "runs/cr16_msmarco_s0/last",
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 22299,
+ "corpus": 110592,
+ "exclusion": "sparsecl",
+ "query_free": true,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.5995688305401382,
+    "Recall@10": 0.9581446103711677,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 2.4423757908967126e-05,
+    "Recall@10": 4.484506031660613e-05,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 1.407,
+   "cos_plus_K": {
+    "NDCG@10": 0.8571171191461678,
+    "Recall@10": 0.9390107179694157,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.5995688305401382,
+    "Recall@10": 0.9581446103711677,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.015174963968379144,
+    "Recall@10": 0.024470454579428074,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 1.423,
+   "cos_plus_K": {
+    "NDCG@10": 0.8576087588779663,
+    "Recall@10": 0.9390107179694157,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

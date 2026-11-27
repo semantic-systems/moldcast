@@ -1,0 +1,26 @@
+{
+ "dataset": "msmarco",
+ "split": "test",
+ "model": null,
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 22299,
+ "corpus": 110592,
+ "exclusion": "sparsecl",
+ "query_free": false,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.5995688305401382,
+    "Recall@10": 0.9581446103711677,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.5995688305401382,
+    "Recall@10": 0.9581446103711677,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

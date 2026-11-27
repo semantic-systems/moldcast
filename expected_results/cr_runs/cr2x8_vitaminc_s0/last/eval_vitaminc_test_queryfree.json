@@ -1,0 +1,48 @@
+{
+ "dataset": "vitaminc",
+ "split": "test",
+ "model": "runs/cr2x8_vitaminc_s0/last",
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 3932,
+ "corpus": 41888,
+ "exclusion": "sparsecl",
+ "query_free": true,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.5354666376151183,
+    "Recall@10": 0.8870803662258393,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.0005715728957327486,
+    "Recall@10": 0.001017293997965412,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 0.88,
+   "cos_plus_K": {
+    "NDCG@10": 0.5567623407606779,
+    "Recall@10": 0.875381485249237,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.5354666376151183,
+    "Recall@10": 0.8870803662258393,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.020816829717481205,
+    "Recall@10": 0.04374364191251272,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 0.88,
+   "cos_plus_K": {
+    "NDCG@10": 0.5571148833083431,
+    "Recall@10": 0.875381485249237,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

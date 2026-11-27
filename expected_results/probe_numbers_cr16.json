@@ -1,0 +1,762 @@
+{
+ "arm": "cr16",
+ "templates": [
+  "The town had {} residents in 2010.",
+  "The film grossed {} million dollars in its opening week.",
+  "The team won {} games that season.",
+  "The album sold {} copies in its first month.",
+  "The building has {} floors and a rooftop garden."
+ ],
+ "runs": [
+  {
+   "digit_word_top1": 0.2459999978542328,
+   "digit_word_ratio": 0.4969999372959137,
+   "last_digit_ratio": 0.7547249794006348,
+   "magnitude_spearman": -0.05641933791339397,
+   "same_number_other_template_ratio": 0.06370648741722107,
+   "slots": [
+    {
+     "slot": 0,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 1,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 2,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 3,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 4,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 5,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 6,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 7,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 8,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 9,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 10,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 11,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 12,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 13,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 14,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 15,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    }
+   ],
+   "seed": 0
+  },
+  {
+   "digit_word_top1": 0.2619999974966049,
+   "digit_word_ratio": 0.4972773909568787,
+   "last_digit_ratio": 0.7364668250083923,
+   "magnitude_spearman": -0.05592930838465691,
+   "same_number_other_template_ratio": 0.05106847733259201,
+   "slots": [
+    {
+     "slot": 0,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 1,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 2,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 3,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 4,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 5,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 6,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 7,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 8,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 9,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 10,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 11,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 12,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 13,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 14,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 15,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    }
+   ],
+   "seed": 1
+  },
+  {
+   "digit_word_top1": 0.26600000262260437,
+   "digit_word_ratio": 0.4943733811378479,
+   "last_digit_ratio": 0.7391875982284546,
+   "magnitude_spearman": -0.05447956388816237,
+   "same_number_other_template_ratio": 0.050013892352581024,
+   "slots": [
+    {
+     "slot": 0,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 1,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 2,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 3,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 4,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 5,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 6,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 7,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 8,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 9,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 10,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 11,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 12,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 13,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 14,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    },
+    {
+     "slot": 15,
+     "mean_commit": 1.0,
+     "sd_over_numbers": 0.0,
+     "top_numbers": [
+      63,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69
+     ]
+    }
+   ],
+   "seed": 2
+  }
+ ]
+}

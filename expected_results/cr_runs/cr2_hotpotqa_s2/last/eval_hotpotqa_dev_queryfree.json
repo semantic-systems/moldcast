@@ -1,0 +1,48 @@
+{
+ "dataset": "hotpotqa",
+ "split": "dev",
+ "model": "runs/cr2_hotpotqa_s2/last",
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 3000,
+ "corpus": 148686,
+ "exclusion": "sparsecl",
+ "query_free": true,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.6026065917163214,
+    "Recall@10": 0.9721111111111111,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.00020210734650054756,
+    "Recall@10": 0.0003333333333333333,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 1.0,
+   "cos_plus_K": {
+    "NDCG@10": 0.9495167619740109,
+    "Recall@10": 0.9624444444444445,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.6026065917163214,
+    "Recall@10": 0.9721111111111111,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.021490320981856666,
+    "Recall@10": 0.03411111111111111,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 1.0,
+   "cos_plus_K": {
+    "NDCG@10": 0.9495167619740109,
+    "Recall@10": 0.9624444444444445,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

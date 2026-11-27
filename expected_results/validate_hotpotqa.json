@@ -1,0 +1,16 @@
+{
+ "results/val_emb_released.npz": {
+  "target": 0.6305747628211975,
+  "confounder": 0.28079700469970703,
+  "random": 0.21051962673664093,
+  "pairwise": 0.9684877506106556,
+  "queries": 41349
+ },
+ "results/val_emb_ours.npz": {
+  "target": 0.6316379308700562,
+  "confounder": 0.28277355432510376,
+  "random": 0.21049727499485016,
+  "pairwise": 0.9677864035405935,
+  "queries": 41349
+ }
+}

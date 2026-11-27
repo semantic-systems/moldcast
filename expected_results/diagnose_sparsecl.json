@@ -1,0 +1,36 @@
+{
+ "cosine (SparseCL's pipeline)": {
+  "pairwise": 0.010935910977423191,
+  "test_only_ndcg10": 0.5660415291786194
+ },
+ "sparsecl_s0": {
+  "alpha": 1.0430000000000001,
+  "pairwise": 0.1131739616394043,
+  "test_only_ndcg10": 0.603950560092926
+ },
+ "sparsecl_s0_queryfree": {
+  "alpha": 1.0430000000000001,
+  "pairwise": 0.012970498763024807,
+  "test_only_ndcg10": 0.5635333061218262
+ },
+ "sparsecl_s1": {
+  "alpha": 1.238,
+  "pairwise": 0.11419124901294708,
+  "test_only_ndcg10": 0.6016373634338379
+ },
+ "sparsecl_s1_queryfree": {
+  "alpha": 1.238,
+  "pairwise": 0.013479145243763924,
+  "test_only_ndcg10": 0.5640494227409363
+ },
+ "sparsecl_s2": {
+  "alpha": 2.0300000000000002,
+  "pairwise": 0.1368260383605957,
+  "test_only_ndcg10": 0.6074097156524658
+ },
+ "sparsecl_s2_queryfree": {
+  "alpha": 2.0300000000000002,
+  "pairwise": 0.016276704147458076,
+  "test_only_ndcg10": 0.5494414567947388
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "dataset": "arguana",
+ "split": "test",
+ "model": "runs/cr2_arguana_s1/last",
+ "cos_model": "BAAI/bge-base-en-v1.5",
+ "n_queries": 1406,
+ "corpus": 8674,
+ "exclusion": "sparsecl",
+ "query_free": true,
+ "results": {
+  "full": {
+   "cosine": {
+    "NDCG@10": 0.6570775376698619,
+    "Recall@10": 0.8869132290184921,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.0,
+    "Recall@10": 0.0,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 0.38,
+   "cos_plus_K": {
+    "NDCG@10": 0.6853747201637423,
+    "Recall@10": 0.9082503556187767,
+    "backend": "pytrec_eval"
+   }
+  },
+  "rerank": {
+   "cosine": {
+    "NDCG@10": 0.6570775376698619,
+    "Recall@10": 0.8869132290184921,
+    "backend": "pytrec_eval"
+   },
+   "K_only": {
+    "NDCG@10": 0.004936411215121904,
+    "Recall@10": 0.010668563300142247,
+    "backend": "pytrec_eval"
+   },
+   "alpha": 0.38,
+   "cos_plus_K": {
+    "NDCG@10": 0.6853747201637423,
+    "Recall@10": 0.9082503556187767,
+    "backend": "pytrec_eval"
+   }
+  }
+ }
+}

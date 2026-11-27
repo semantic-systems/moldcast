@@ -1,0 +1,13 @@
+# Main environment (Python 3.10 or later). SparseCL's own environment is created
+# separately by setup.sh, with its exact pinned versions.
+torch
+transformers
+datasets
+huggingface_hub
+numpy
+sentencepiece        # tokenizers of the OPUS-MT translation models (benchmark build)
+
+# Optional
+# matplotlib         # the number probe's figure
+# pytrec_eval        # a cross-check in cr/test_cr.py
+# wandb              # training logs (cr/cr_train.py; disable with --no_wandb)
